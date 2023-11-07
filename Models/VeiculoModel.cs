@@ -3,11 +3,11 @@ namespace SistemaDeVeiculos.Models
 
     public class VeiculoModel
     {
-        public int id { get; set; }
-        public string marca { get; set; }
-        public string modelo { get; set; }
-        public int anoFab { get; set; }
-        public decimal km { get; set; }
-        public string chassiNum { get; set; }
+        public int Id { get; set; }
+        public string Marca { get; set; }
+        public string Modelo { get; set; }
+        public int AnoFab { get; set; }
+        public decimal Km { get; set; }
+        public string ChassiNum { get; set; }
     }
 }
